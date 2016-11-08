@@ -81,38 +81,6 @@
 	display: none !important;
 }
 
-/* remove top buttons on comment box */
-.timeline-comment-wrapper .tabnav-extra, .inline-comment-form-container .tabnav-extra {
-	display: none !important;
-}
-
-/* remove commentbox toolbar */
-.toolbar-group {
-	display: none;
-	margin-left: 0 !important;
-}
-.toolbar-group:last-child {
-	display: inline-block;
-}
-.toolbar-group .toolbar-item {
-	display: none;
-}
-.toolbar-group .js-saved-reply-container {
-	display: block;
-}
-.toolbar-commenting {
-	margin-top: 4px;
-}
-
-/* remove upload message on comment box */
-.write-content .drag-and-drop {
-	display: none !important;
-}
-.upload-enabled textarea {
-	border-bottom: 1px solid #ccc !important;
-	border-radius: 3px !important;
-}
-
 /* remove random protip at the bottom of the page */
 .protip {
 	display: none !important;
